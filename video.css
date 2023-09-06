@@ -1,0 +1,65 @@
+/* this cater for all the video section */
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.thumbnail_section{
+    flex: 1fr;
+}
+
+.thumbnail_image{
+    width: 100%;
+   
+}
+
+
+
+.details_section{
+    flex: 1fr;
+    display: flex;
+    flex-direction: row;
+    justify-content: top;
+    align-items: top;
+    margin-top: 8px;
+   
+}
+
+
+.profilepic{
+    flex: 1fr;
+    margin-right: 20px;
+}
+
+.profile_image{
+    width: 50px;
+    margin-top: 0px;
+    border-radius: 25px;
+}
+
+.video_details{
+    flex: 1fr;
+    margin-top: 0px;
+   
+}
+
+.video_title{
+    margin-top: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+}
+
+.name{
+    color: gray;
+    margin-bottom: 0px;
+}
+
+.view_statistics{
+    color: gray;
+    margin-top: 3px;
+
+}
