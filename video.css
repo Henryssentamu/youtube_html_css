@@ -9,6 +9,19 @@
 
 .thumbnail_section{
     flex: 1fr;
+    position: relative;
+}
+
+.thumbnail_section .video_time{
+    position: absolute;
+    background-color: black;
+    color: white;
+    bottom: 10px;
+    right: 15px;
+    padding: 5px;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    ;
 }
 
 .thumbnail_image{
