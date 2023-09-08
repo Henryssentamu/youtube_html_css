@@ -1,0 +1,30 @@
+.side_bar_section{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0px;
+    background-color: white;
+    bottom: 0px;
+    top: 70px;
+    width: 70px;
+    z-index: 300;
+    border-right: 2px solid rgb(244, 244, 244);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.side_bar_section #homesection{
+    flex: 1fr;  
+
+}
+
+
+.side_bar_section .icons{
+    width: 30px;
+    margin-bottom: 0px;
+}
+
+.side_bar_section p{
+   margin-top: 0px;
+   align-items: center;
+}
