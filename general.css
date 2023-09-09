@@ -10,6 +10,36 @@ body{
     row-gap: 20px;
     margin-top: 90px;
     background-color: rgba(248, 245, 245, 0.807);
-    margin-left: 90px;
+    margin-left: 110px;
    
+}
+
+
+@media(max-width:1450px){
+    .main_section{
+        grid-template-columns: 1fr 1fr 1fr ;
+
+    }
+}
+
+
+
+@media(max-width:1000px){
+    .main_section{
+        grid-template-columns: 1fr 1fr  ;
+
+    }
+}
+
+
+@media(max-width:700px){
+    .main_section{
+        grid-template-columns: 1fr;
+
+    }
+
+    .search_area .search{
+        min-width: 70px;
+        max-width: 90px; 
+    }
 }
